@@ -7,3 +7,4 @@ class PageAdminView(TranslationAdmin):
 	prepopulated_fields = {"slug": ("title",)}
 	
 admin.site.register(Page, PageAdminView)
+
