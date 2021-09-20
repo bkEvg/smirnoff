@@ -173,4 +173,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SITE_ID = 1
 
-django_heroku(locals())
+django_heroku.settings(locals())
