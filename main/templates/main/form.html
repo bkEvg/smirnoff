@@ -1,0 +1,59 @@
+{% load i18n widget_tweaks %}
+<form class="row g-3 needs-validation" novalidate action="{% url 'create_proposal' %}" method="POST">
+	{% csrf_token %}
+
+	<p class="contact-form__notation">{% trans 'Поля отмеченные <span class="red_dot">( )</span> обязательны к заполнению.' %}</p>
+
+	<div class="mb-3">
+	  <label for="name_id" class="form-label form-name">{% trans 'Имя' %}</label>
+	  <input name="name" type="text" class="form-control form-control-lg" id="name_id" placeholder="{% trans 'Иван' %}" required>
+	  <div class="invalid-feedback">
+	      {% trans 'Это поле обязательно для заполнения' %}
+	    </div>
+	</div>
+
+	<div class="mb-3">
+	  <label for="phone_number_id" class="form-label form-phone">{% trans 'Номер телефона' %}</label>
+	  <input name="phone" type="text" class="form-control form-control-lg" id="phone_number_id" placeholder="{% trans 'Любой формат' %}" required>
+	  <div class="invalid-feedback">
+	      {% trans 'Это поле обязательно для заполнения' %}
+	    </div>
+	</div>
+
+	<div class="mb-3">
+	    <label for="email_id" class="form-label form-email">{% trans 'Email адрес' %}</label>
+	    <input name="email" type="email" class="form-control form-control-lg" id="email_id" placeholder="name@example.com" required>
+	    <div class="invalid-feedback">
+	        {% trans 'Это поле обязательно для заполнения' %}
+	    </div>
+	</div>
+
+	<div class="mb-3">
+	    <label for="suggestion_id" class="form-label">{% trans 'Ваши предложения' %}</label>
+	    <textarea name="text" class="form-control form-control-lg" id="suggestion_id" rows="3" placeholder="{% trans 'Необязательно' %}"></textarea>
+	</div>
+
+    <div class="mb-3 d-flex">
+        <input class="form-check-input me-2 col-1" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+        	{% trans 'Согласен на обработку персональных данных' %}
+        </label>
+    </div>
+    {% if form.errors %}
+	    {% for field in form %}
+	        {% for error in field.errors %}
+	            <div class="alert alert-danger">
+	                <strong>{{ error|escape }}</strong>
+	            </div>
+	        {% endfor %}
+	    {% endfor %}
+	    {% for error in form.non_field_errors %}
+	        <div class="alert alert-danger">
+	            <strong>{{ error|escape }}</strong>
+	        </div>
+	    {% endfor %}
+	{% endif %}
+    <div class="mb-3">
+		<button type="submit" class="btn btn-dark w-auto">{% trans 'Заказать консультацию' %}</button>
+	</div>
+</form>

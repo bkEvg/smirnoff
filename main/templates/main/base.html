@@ -1,0 +1,83 @@
+{% load static i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+  {% block head %}{% endblock %}
+  <title>Smirnoff - Производитель мебели из массива дерева на заказ.</title>
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta content="utf-8" http-equiv="encoding">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Romanesco&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/main.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'main/css/media.css' %}">
+  <link rel="shortcut icon" href="{% static 'main/img/Logo.svg' %}">
+  {% block extrahead %}{% endblock %}
+</head>
+<body>
+
+	{% block content %}
+    {% if messages %}
+      {% block alerts %}
+        <div class="toast-container alert-top pt-3">
+          {% for message in messages %}
+            <div class="alert alert-{{ message.tags }}" role="alert">
+              {{ message.message }}
+            </div>
+          {% endfor %}
+        </div>
+      {% endblock %}
+    {% endif %}
+    <script id="CookieDeclaration" src="https://consent.cookiebot.com/139dcfff-da57-4cf2-b111-93e925bd8c96/cd.js" type="text/javascript" async></script>
+	{% endblock %}
+
+  <footer class="footer text-light bg-dark position-relative">
+    <div class="container">
+      <div class="row d-flex flex-space-between item-holder">
+
+        <div class="col-12 col-md-3">
+          <!-- <a class="brand-link" href="#">smirnoff</a> -->
+          {% get_current_language as LANGUAGE_CODE %}
+          <a class="navbar-brand" href="{% url 'main' %}"><img src="{% if LANGUAGE_CODE == 'de' %}{% static 'main/img/Logo_vert_de.svg' %}{% else %}{% static 'main/img/Logo_vert_ru.svg' %}{% endif %}" alt="Smirnoff logo"></a>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <ul class="page-list">
+            <!-- <li><a class="footer-link" href="#">{% trans 'О компании' %}</a></li>
+            <li><a class="footer-link" href="#">{% trans 'Способы оплаты' %}</a><li>
+            <li><a class="footer-link" href="#">{% trans 'Доставка' %}</a></li>
+            <li><a class="footer-link" href="#">{% trans 'Контакты' %}</a></li> -->
+            {% for page in pages %}
+              <li><a class="footer-link" href="{{ page.get_absolute_url }}">{{ page.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="footer__description">
+            <h2 class="footer__text mb-5">
+              {% trans 'Мебель из массива дерева на заказ' %}
+            </h2>
+            <a href="#form" class="btn btn-light">{% trans 'Заказать консультацию' %}</a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <p class="ps">{% trans 'Фотографии представленные на сайте не являются показателем финальной работы, все изделия отличаются друг от друга в той или иной степени. Мы не гарантируем сходства с исходной продукцией.' %}</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="{% static 'main/js/main.js' %}" ></script>
+  <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="139dcfff-da57-4cf2-b111-93e925bd8c96" data-blockingmode="auto" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+
+
+</body>
+</html>

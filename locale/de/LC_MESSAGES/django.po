@@ -1,0 +1,965 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-01 13:07+0700\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: bedroom/templates/bedroom/bedroom.html:13
+msgid "Спальня из массива дерева на заказ"
+msgstr "Schlafzimmer aus Massivholz auf Bestellung"
+
+#: bedroom/templates/bedroom/bedroom.html:16
+msgid ""
+"Производство кроватей, тумб, шкафов из массива дерева ручной/машинной работы."
+msgstr ""
+"Herstellung von Betten, Sockeln, Schränken aus Massivholz, Hand- / "
+"Maschinenarbeiten."
+
+#: bedroom/templates/bedroom/bedroom.html:19
+#: ideas/templates/ideas/ideas_list.html:19
+#: kitchen/templates/kitchen/kitchen.html:21
+#: livingroom/templates/livingroom/living.html:20
+#: main/templates/main/main.html:20 main/templates/main/main.html:72
+#: main/templates/main/main.html:92 main/templates/main/main.html:120
+#: main/templates/main/main.html:187
+msgid "Подробнее"
+msgstr "Mehr Details"
+
+#: bedroom/templates/bedroom/bedroom.html:20
+#: ideas/templates/ideas/ideas_list.html:20
+#: kitchen/templates/kitchen/kitchen.html:22
+#: livingroom/templates/livingroom/living.html:21
+#: main/templates/main/main.html:21 main/templates/main/main.html:141
+msgid "Связаться"
+msgstr "Kontakt"
+
+#: bedroom/templates/bedroom/bedroom.html:38
+#: kitchen/templates/kitchen/kitchen.html:40
+#: livingroom/templates/livingroom/living.html:39
+#: main/templates/main/main.html:39
+msgid "Наша задача делать свое дело качественно, а ваша наслаждаться!"
+msgstr ""
+"Unsere Aufgabe ist es, unsere Arbeit effizient zu erledigen und Ihre zu "
+"genießen!"
+
+#: bedroom/templates/bedroom/bedroom.html:43
+msgid ""
+"Наша компания предлагает услуги по изготовлению мебели из массива дерева для "
+"вашей спальни. Воплощаем ваши мечты в реальность по индивидуальным размерам."
+msgstr ""
+"Unsere Firma bietet Dienstleistungen für die Herstellung von "
+"Massivholzmöbeln für Ihr Schlafzimmer. Wir lassen Ihre Träume in "
+"individuellen Größen wahr werden."
+
+#: bedroom/templates/bedroom/bedroom.html:44
+#: kitchen/templates/kitchen/kitchen.html:46
+#: livingroom/templates/livingroom/living.html:45
+msgid ""
+"Создадим мебель на заказ по вашим фотографиям или эскизам, сделаем копию "
+"иностранной мебели."
+msgstr ""
+"Wir fertigen maßgeschneiderte Möbel nach Ihren Fotos oder Skizzen, wir "
+"machen eine Kopie von ausländischen Möbeln."
+
+#: bedroom/templates/bedroom/bedroom.html:46
+#: kitchen/templates/kitchen/kitchen.html:48
+#: livingroom/templates/livingroom/living.html:47
+#: main/templates/main/base.html:56 main/templates/main/form.html:57
+#: main/templates/main/main.html:50
+msgid "Заказать консультацию"
+msgstr "Mehr Details"
+
+#: bedroom/templates/bedroom/bedroom.html:58
+msgid "Кровати для спальни"
+msgstr "Betten für das Schlafzimmer"
+
+#: bedroom/templates/bedroom/bedroom.html:66
+msgid "Двуспальные кровати"
+msgstr "Doppelbett"
+
+#: bedroom/templates/bedroom/bedroom.html:69
+msgid ""
+"Закажите удобную и стильную кровать для спальни из массива дерева. Сделаем "
+"репликацию кровати по вашим фотографиям."
+msgstr ""
+"Bestellen Sie ein bequemes und stilvolles Massivholzbett für Ihr "
+"Schlafzimmer. Wir werden eine Replik des Bettes gemäß Ihren Fotos machen."
+
+#: bedroom/templates/bedroom/bedroom.html:77
+msgid "Односпальные кровати"
+msgstr "Einzelbetten"
+
+#: bedroom/templates/bedroom/bedroom.html:80
+msgid ""
+"Экологически чистый и очень крепкий материал, позволит вам в полной мере "
+"насладиться крепким сном!"
+msgstr ""
+"Umweltfreundliches und sehr starkes Material ermöglicht es Ihnen, einen "
+"gesunden Schlaf zu genießen!"
+
+#: bedroom/templates/bedroom/bedroom.html:88
+msgid "Детские кровати"
+msgstr "Kinderbetten"
+
+#: bedroom/templates/bedroom/bedroom.html:91
+msgid ""
+"Изготавливаем детскую мебель для ваших детей с индивидуальным подходом. Ваш "
+"ребенок будет в восторге от кровати!"
+msgstr ""
+"Wir fertigen Kindermöbel für Ihre Kinder mit einem individuellen Ansatz. Ihr "
+"Kind wird das Bett lieben!"
+
+#: bedroom/templates/bedroom/bedroom.html:146
+#: ideas/templates/ideas/ideas_list.html:39
+#: kitchen/templates/kitchen/kitchen.html:300
+#: livingroom/templates/livingroom/living.html:116
+#: main/templates/main/main.html:280
+msgid ""
+"Наша компания может создать репликацию на основе фотографий которые вы нашли "
+"на Pinterest."
+msgstr ""
+"Unser Unternehmen kann eine Replikation basierend auf den Fotos erstellen, "
+"die Sie auf Pinterest gefunden haben."
+
+#: bedroom/templates/bedroom/bedroom.html:148
+#: ideas/templates/ideas/ideas_list.html:41
+#: kitchen/templates/kitchen/kitchen.html:302
+#: livingroom/templates/livingroom/living.html:118
+#: main/templates/main/main.html:282
+msgid "Вдохновиться"
+msgstr "Lass dich inspirieren"
+
+#: bedroom/templates/bedroom/bedroom.html:165
+#: livingroom/templates/livingroom/living.html:135
+msgid "Никаких проблем с подбором мебели дополняющей друг друга!"
+msgstr "Kein Problem bei der Auswahl der ergänzenden Möbel!"
+
+#: bedroom/templates/bedroom/bedroom.html:170
+msgid ""
+"Часто возникает проблема: кровать куплена, а дополнительная мебель не "
+"подходит по стилю, и что же делать? Можно обратиться к интернету и "
+"погрязнуть в разнообразии всего подряд, а можно обратиться к нам, и наши "
+"специалисты подберут мебель, которая идеально подходит к вашей кровати!"
+msgstr ""
+"Oft tritt ein Problem auf: Das Bett wurde gekauft und die zusätzlichen Möbel "
+"passen nicht zum Stil, und was ist zu tun? Sie können sich an das Internet "
+"wenden und sich in einer Vielzahl von Dingen festsetzen, oder Sie können uns "
+"kontaktieren, und unsere Experten wählen Möbel aus, die perfekt zu Ihrem "
+"Bett passen!"
+
+#: bedroom/templates/bedroom/bedroom.html:187
+msgid "Идеально подойдет к вашей спальне"
+msgstr "Perfekt für Ihr Schlafzimmer"
+
+#: bedroom/templates/bedroom/bedroom.html:197
+msgid "Тумбы"
+msgstr "Sockel"
+
+#: bedroom/templates/bedroom/bedroom.html:200
+msgid ""
+"Куда положить телефон с будильником, чтобы его услышать и не проспать важную "
+"встречу, конечно же на тумбу! Отличное место для хранения мелочей."
+msgstr ""
+"Wo Sie das Telefon mit dem Wecker platzieren, damit Sie es hören und ein "
+"wichtiges Meeting nicht verschlafen können, natürlich auf dem Bordstein! Ein "
+"großartiger Ort, um kleine Gegenstände aufzubewahren."
+
+#: bedroom/templates/bedroom/bedroom.html:209
+#: kitchen/templates/kitchen/kitchen.html:331
+#: livingroom/templates/livingroom/living.html:195
+msgid "Шкафы"
+msgstr "Schränke"
+
+#: bedroom/templates/bedroom/bedroom.html:212
+msgid ""
+"Плательные шкафы, шкафы купе из массива дерева по индивидуальным чертежам, с "
+"возможностью выбора планировки внутреннего пространства."
+msgstr ""
+"Kleiderschränke, Schiebeschränke aus Massivholz nach individuellen "
+"Zeichnungen, mit der Möglichkeit, die Anordnung des Innenraums zu wählen."
+
+#: bedroom/templates/bedroom/bedroom.html:224
+msgid "Комоды"
+msgstr "Kommoden"
+
+#: bedroom/templates/bedroom/bedroom.html:227
+msgid ""
+"Красивые, лаконичные и функциональные комоды с обширным спектром "
+"декоративных решений!"
+msgstr ""
+"Schöne, lakonische und funktionale Kommoden mit einer großen Auswahl an "
+"dekorativen Lösungen!"
+
+#: bedroom/templates/bedroom/bedroom.html:236
+msgid "Туалетные столики"
+msgstr "Schminktische"
+
+#: bedroom/templates/bedroom/bedroom.html:239
+msgid ""
+"Является неотъемлемой частью спальни. Может быть как просто украшением так и "
+"функциональной мебелью!"
+msgstr ""
+"Es ist ein wesentlicher Bestandteil des Schlafzimmers. Es kann entweder nur "
+"eine Dekoration oder ein funktionales Möbel sein!"
+
+#: bedroom/templates/bedroom/bedroom.html:253
+#: kitchen/templates/kitchen/kitchen.html:221
+#: livingroom/templates/livingroom/living.html:225
+msgid "Великолепие натурального дерева"
+msgstr "Die Pracht des Naturholzes"
+
+#: bedroom/templates/bedroom/bedroom.html:256
+#: kitchen/templates/kitchen/kitchen.html:224
+#: livingroom/templates/livingroom/living.html:228
+msgid ""
+"Помимо красоты, у дерева немало практических преимуществ. Это экологичность, "
+"гипоаллергенность, устойчивость к нагрузкам."
+msgstr ""
+"Neben der Schönheit bietet der Baum viele praktische Vorteile. Dies ist "
+"Umweltfreundlichkeit, Hypoallergenität, Widerstandsfähigkeit gegen Stress."
+
+#: bedroom/templates/bedroom/bedroom.html:263
+#: kitchen/templates/kitchen/kitchen.html:231
+#: livingroom/templates/livingroom/living.html:235
+msgid "Массив дуба"
+msgstr "Massive Eiche"
+
+#: bedroom/templates/bedroom/bedroom.html:266
+#: kitchen/templates/kitchen/kitchen.html:234
+#: livingroom/templates/livingroom/living.html:238
+msgid ""
+"Классика на века. Кровать из массива дуба — вещь, способная без проблем "
+"прослужить не один десяток лет. Неоспоримое достоинство материала — "
+"устойчивость к гниению."
+msgstr ""
+"Klassiker für die Ewigkeit. Ein massives Eichenbett ist eine Sache, die mehr "
+"als ein Dutzend Jahre ohne Probleme dienen kann. Der unbestreitbare Vorteil "
+"des Materials ist seine Beständigkeit gegen Verfall."
+
+#: bedroom/templates/bedroom/bedroom.html:271
+#: kitchen/templates/kitchen/kitchen.html:239
+#: livingroom/templates/livingroom/living.html:243
+msgid "Массив ясеня"
+msgstr "Esche"
+
+#: bedroom/templates/bedroom/bedroom.html:274
+#: kitchen/templates/kitchen/kitchen.html:242
+#: livingroom/templates/livingroom/living.html:246
+msgid ""
+"Практичный и выразительный. По своей прочности, долговечности кровать из "
+"ясеня может сравниться с мебелью из дуба, при этом ясень существенно дешевле."
+msgstr ""
+"Praktisch und ausdrucksstark. In Bezug auf Festigkeit und Haltbarkeit kann "
+"ein Eschenbett mit Eichenmöbeln verglichen werden, während Esche deutlich "
+"billiger ist."
+
+#: bedroom/templates/bedroom/bedroom.html:282
+#: kitchen/templates/kitchen/kitchen.html:250
+#: livingroom/templates/livingroom/living.html:254
+msgid "Массив бука"
+msgstr "Massive Buche"
+
+#: bedroom/templates/bedroom/bedroom.html:285
+#: kitchen/templates/kitchen/kitchen.html:253
+#: livingroom/templates/livingroom/living.html:257
+msgid ""
+"Долговечный и прочный. Твердый и устойчивый к механическим повреждениям, "
+"этот материал служит десятилетия. Он отлично подходит для изготовления "
+"кроватей."
+msgstr ""
+"Langlebig und langlebig. Dieses Material ist hart und widerstandsfähig gegen "
+"mechanische Beschädigungen und hält Jahrzehnte. Es ist großartig, um Betten "
+"zu machen."
+
+#: bedroom/templates/bedroom/bedroom.html:290
+#: kitchen/templates/kitchen/kitchen.html:258
+#: livingroom/templates/livingroom/living.html:262
+msgid "Массив сосны"
+msgstr "Feste Kiefer"
+
+#: bedroom/templates/bedroom/bedroom.html:293
+#: kitchen/templates/kitchen/kitchen.html:261
+#: livingroom/templates/livingroom/living.html:265
+msgid ""
+"Дешевый и полезный. Важный плюс материала — податливость в обработке, "
+"поэтому сосну используют и для производства мебели, которая затем "
+"лакируется, и для изготовления каркаса с последующим покрытием шпоном."
+msgstr ""
+"Billig und nützlich. Ein wichtiges Plus des Materials ist die "
+"Geschmeidigkeit bei der Verarbeitung. Daher wird Kiefer für die Herstellung "
+"von Möbeln verwendet, die dann lackiert werden, und für die Herstellung "
+"eines Rahmens mit anschließender Furnierbeschichtung."
+
+#: bedroom/templates/bedroom/bedroom.html:301
+#: kitchen/templates/kitchen/kitchen.html:269
+#: livingroom/templates/livingroom/living.html:273
+msgid "Массив ореха"
+msgstr "Walnuss massiv"
+
+#: bedroom/templates/bedroom/bedroom.html:304
+#: kitchen/templates/kitchen/kitchen.html:272
+#: livingroom/templates/livingroom/living.html:276
+msgid ""
+"Впечатляющее разнообразие тонов. Из-за большого содержание дубильных веществ "
+"он очень просто окрашивается в любые тона, от самых светлых до насыщенных "
+"темных."
+msgstr ""
+"Eine beeindruckende Farbvielfalt. Aufgrund des hohen Gehalts an Tanninen ist "
+"es sehr einfach, in jedem Ton zu färben, vom hellsten bis zum intensivsten "
+"Dunkel."
+
+#: bedroom/templates/bedroom/bedroom.html:309
+#: kitchen/templates/kitchen/kitchen.html:277
+#: livingroom/templates/livingroom/living.html:281
+msgid "Массив лиственницы"
+msgstr "Feste Lärche"
+
+#: bedroom/templates/bedroom/bedroom.html:312
+#: kitchen/templates/kitchen/kitchen.html:280
+#: livingroom/templates/livingroom/living.html:284
+msgid ""
+"Капризная красота.Очень приятный красновато-бурый оттенок древесины "
+"лиственницы делает ее желанной гостьей на мебельных фабриках. Однако "
+"материал капризен: из-за большого количества смол в стволе."
+msgstr ""
+"Launische Schönheit. Ein sehr angenehmer rotbrauner Lärchenholz-Farbton "
+"macht es zu einem willkommenen Gast in Möbelfabriken. Das Material ist "
+"jedoch launisch: aufgrund der großen Harzmenge im Zylinder."
+
+#: bedroom/templates/bedroom/bedroom.html:328
+#: kitchen/templates/kitchen/kitchen.html:388
+#: livingroom/templates/livingroom/living.html:300
+#: main/templates/main/main.html:299
+msgid "Вдохновляйтесь свежими идеями"
+msgstr "Lassen Sie sich von frischen Ideen inspirieren"
+
+#: bedroom/templates/bedroom/bedroom.html:340
+#: kitchen/templates/kitchen/kitchen.html:400
+#: livingroom/templates/livingroom/living.html:312
+msgid ""
+"На нашем сайте мы собрали примеры множества примеров мебели от известных "
+"дизайнеров, для того чтобы вы могли вдохновляться новыми идеями для своей "
+"гостинной, кухни, ванной комнаты. Сообщите нам если хотите воссоздать "
+"понравившийся вам пример."
+msgstr ""
+" Auf unserer Website haben wir Beispiele vieler Möbelbeispiele berühmter "
+"Designer zusammengestellt, damit Sie sich von neuen Ideen für Ihr "
+"Wohnzimmer, Ihre Küche und Ihr Bad inspirieren lassen können. Lassen Sie uns "
+"wissen, ob Sie das gewünschte Beispiel neu erstellen möchten."
+
+#: bedroom/templates/bedroom/bedroom.html:342
+#: kitchen/templates/kitchen/kitchen.html:402
+#: livingroom/templates/livingroom/living.html:314
+#: main/templates/main/main.html:315
+msgid "Посмотреть"
+msgstr "Aussehen"
+
+#: bedroom/templates/bedroom/bedroom.html:356
+#: ideas/templates/ideas/ideas_detail.html:36
+#: ideas/templates/ideas/ideas_list.html:113
+#: kitchen/templates/kitchen/kitchen.html:416
+#: livingroom/templates/livingroom/living.html:328
+#: main/templates/main/main.html:329
+msgid "Оставьте заявку"
+msgstr "Hinterlassen Sie eine Anfrage"
+
+#: bedroom/templates/bedroom/bedroom.html:359
+#: ideas/templates/ideas/ideas_detail.html:39
+#: ideas/templates/ideas/ideas_list.html:116
+#: kitchen/templates/kitchen/kitchen.html:419
+#: livingroom/templates/livingroom/living.html:331
+#: main/templates/main/main.html:332
+msgid ""
+"Закажите мебель и многое другое из массива дерева, пообщайтесь со "
+"специалистами, получите бесплатную консультацию!"
+msgstr ""
+"Bestellen Sie Möbel und vieles mehr aus Massivholz, sprechen Sie mit "
+"Experten, lassen Sie sich kostenlos beraten!"
+
+#: ideas/models.py:7
+msgid "Название альбома"
+msgstr "Albumtitel"
+
+#: ideas/models.py:21
+msgid "Фото"
+msgstr "Foto"
+
+#: ideas/models.py:22
+msgid "Альбом"
+msgstr "Album"
+
+#: ideas/templates/ideas/ideas_list.html:13
+msgid "Вдохновение на каждый день"
+msgstr "Alltägliche Inspiration"
+
+#: ideas/templates/ideas/ideas_list.html:16
+msgid ""
+"Мы совместно с дизайнерами подобрали мебель которая идеально сочетается, и "
+"ее возможно воссоздать нашими специалистами!"
+msgstr ""
+"Zusammen mit den Designern haben wir Möbel ausgewählt, die perfekt "
+"zusammenpassen, und es ist möglich, sie von unseren Spezialisten nachzubauen!"
+
+#: ideas/templates/ideas/ideas_list.html:58
+msgid "Мебель подобранная дизайнерами"
+msgstr ""
+
+#: ideas/templates/ideas/ideas_list.html:84
+msgid "от А—Я"
+msgstr "von A—Z"
+
+#: ideas/templates/ideas/ideas_list.html:87
+msgid "Ваш проект будет вести один человек от начала и до конца!"
+msgstr "Ihr Projekt wird von Anfang bis Ende von einer Person geleitet!"
+
+#: ideas/templates/ideas/ideas_list.html:98
+msgid "Возможных цветовых решений для вашей мебели."
+msgstr "Mögliche Farblösungen für Ihre Möbel."
+
+#: kitchen/templates/kitchen/kitchen.html:15
+msgid "Кухня из массива дерева на заказ"
+msgstr "Massivholzküche nach Maß"
+
+#: kitchen/templates/kitchen/kitchen.html:18
+msgid ""
+"Кухонный гарнитур, столы, стулья, барные стойки и многое-многое другое из "
+"массива дерева."
+msgstr "Küchensets, Tische, Stühle, Bartheken und vieles mehr aus Massivholz."
+
+#: kitchen/templates/kitchen/kitchen.html:45
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "Наша компания предлагает услуги по изготовлению мебели из массива дерева "
+#| "для вашей кухни. Воплощаем ваши мечты в реальность по индивидуальным "
+#| "размерам."
+msgid ""
+"Наша компания предлагает услуги по изготовлению мебели из массива дерева для "
+"вашей кухни. Воплощаем ваши мечты в реальность по индивидуальным размерам."
+msgstr ""
+"\n"
+"Unsere Firma bietet Dienstleistungen für die Herstellung von "
+"Massivholzmöbeln für Ihre Küche. Wir lassen Ihre Träume in individuellen "
+"Größen wahr werden."
+
+#: kitchen/templates/kitchen/kitchen.html:61
+msgid "Кухня на любой вкус и цвет"
+msgstr "Küche für jeden Geschmack und jede Farbe"
+
+#: kitchen/templates/kitchen/kitchen.html:73
+msgid "Прямая кухня"
+msgstr "Direkte Küche"
+
+#: kitchen/templates/kitchen/kitchen.html:76
+msgid "Комфорт и пространство для всей семьи"
+msgstr "Komfort und Platz für die ganze Familie"
+
+#: kitchen/templates/kitchen/kitchen.html:79
+msgid ""
+"Вариант планировки, при котором все элементы кухонного гарнитура расположены "
+"вдоль одной стены. Расстановка в один ряд не всегда удобна, поэтому прямой "
+"кухонный гарнитур часто комбинируют с островом или полуостровом."
+msgstr ""
+"Eine Layoutoption, bei der sich alle Elemente des Küchensets an einer Wand "
+"befinden. Die Anordnung in einer Reihe ist nicht immer bequem, daher wird "
+"ein direktes Küchenset oft mit einer Insel oder einer Halbinsel kombiniert."
+
+#: kitchen/templates/kitchen/kitchen.html:92
+msgid "П-образная кухня"
+msgstr ""
+
+#: kitchen/templates/kitchen/kitchen.html:95
+msgid "Задействуйте максимально всё пространство"
+msgstr ""
+
+#: kitchen/templates/kitchen/kitchen.html:98
+msgid ""
+"Такая планировка универсальна и подходит почти для всех типов кухонь, "
+"кухонный гарнитур, бытовая техника и системы хранения расположены по трем "
+"смежным стенам. Нередко одна из боковин П-образной кухни — полуостров или "
+"барная стойка."
+msgstr ""
+"Dieses Layout ist universell und für fast alle Arten von Küchen geeignet. "
+"Küchengarnituren, Haushaltsgeräte und Aufbewahrungssysteme befinden sich an "
+"drei benachbarten Wänden. Oft ist eine der Seitenwände einer U-förmigen "
+"Küche eine Halbinsel oder eine Bartheke."
+
+#: kitchen/templates/kitchen/kitchen.html:108
+msgid "Г-образная кухня"
+msgstr "L-förmige Küche"
+
+#: kitchen/templates/kitchen/kitchen.html:111
+msgid "Многофункциональность, ни слова больше..."
+msgstr "Multifunktionalität, kein Wort mehr ..."
+
+#: kitchen/templates/kitchen/kitchen.html:114
+msgid ""
+"Самый популярный вариант планировки, при котором мебель расположена "
+"перпендикулярно вдоль двух смежных стен. Она хороша для средней и маленькой "
+"кухни, потому что позволяет даже маленькую площадь использовать эффективно."
+msgstr ""
+"Die beliebteste Layoutoption, bei der sich Möbel senkrecht an zwei "
+"benachbarten Wänden befinden. Es ist gut für mittlere und kleine Küchen "
+"geeignet, da selbst eine kleine Fläche effizient genutzt werden kann."
+
+#: kitchen/templates/kitchen/kitchen.html:127
+msgid "Полуостровная кухня"
+msgstr "Halbinsel Küche"
+
+#: kitchen/templates/kitchen/kitchen.html:130
+msgid "Кухня с дополнительным выступом"
+msgstr "Küche mit zusätzlicher Kante"
+
+#: kitchen/templates/kitchen/kitchen.html:133
+msgid ""
+"Такая конструкция занимает гораздо меньше места, чем островная планировка. "
+"Поэтому гарнитур с полуостровом можно устанавливать даже в не слишком "
+"больших кухнях, квартирах студиях или тех квартирах, где кухня объединена с "
+"гостиной."
+msgstr ""
+"Dieses Design nimmt viel weniger Platz ein als ein Insellayout. Daher kann "
+"eine Suite mit einer Halbinsel auch in nicht zu großen Küchen, Studio-"
+"Apartments oder solchen Apartments installiert werden, in denen die Küche "
+"mit dem Wohnzimmer kombiniert wird."
+
+#: kitchen/templates/kitchen/kitchen.html:149
+msgid "Параллельная кухня"
+msgstr "Parallele Küche"
+
+#: kitchen/templates/kitchen/kitchen.html:152
+msgid "Простота и удобство!"
+msgstr "Einfachheit und Bequemlichkeit!"
+
+#: kitchen/templates/kitchen/kitchen.html:155
+msgid ""
+"Параллельная планировка кухни не так популярна. Но это хороший вариант для "
+"узкой вытянутой кухни, особенно если вы решили разместить столовую зону в "
+"гостиной."
+msgstr ""
+"Parallele Küchenlayouts sind nicht so beliebt. Dies ist jedoch eine gute "
+"Option für eine schmale, langgestreckte Küche, insbesondere wenn Sie den "
+"Essbereich im Wohnzimmer platzieren möchten."
+
+#: kitchen/templates/kitchen/kitchen.html:169
+#: livingroom/templates/livingroom/living.html:59
+msgid "Декорирование мебели"
+msgstr "Möbeldekoration"
+
+#: kitchen/templates/kitchen/kitchen.html:172
+#: livingroom/templates/livingroom/living.html:62
+msgid ""
+"Резьба по дереву, лакокрасочные работы и еще многое другое - руками опытного "
+"мастера!"
+msgstr ""
+"Holzschnitzerei, Lackierung und vieles mehr - von einem erfahrenen "
+"Handwerker!"
+
+#: kitchen/templates/kitchen/kitchen.html:180
+#: livingroom/templates/livingroom/living.html:70
+msgid "Резьба по дереву"
+msgstr "Holzschnitzen"
+
+#: kitchen/templates/kitchen/kitchen.html:188
+#: livingroom/templates/livingroom/living.html:78
+msgid "Лакирование и покраска"
+msgstr "Lackieren und Malen"
+
+#: kitchen/templates/kitchen/kitchen.html:198
+#: livingroom/templates/livingroom/living.html:88
+msgid "Состаривание мебели"
+msgstr "Alterung der Möbel"
+
+#: kitchen/templates/kitchen/kitchen.html:206
+#: livingroom/templates/livingroom/living.html:96
+msgid "Золочение и серебрение"
+msgstr "Vergoldung und Versilberung"
+
+#: kitchen/templates/kitchen/kitchen.html:319
+msgid "Вашей кухне обязательно понравятся"
+msgstr "Ihre Küche wird es auf jeden Fall mögen"
+
+#: kitchen/templates/kitchen/kitchen.html:334
+msgid ""
+"Храните вашу посуду в идеальном порядке! С возможностью выбора стороны/типа "
+"открывания дверей."
+msgstr ""
+"Halten Sie Ihre Gerichte in perfekter Ordnung! Mit einer Auswahl an Seite / "
+"Art der Türöffnung."
+
+#: kitchen/templates/kitchen/kitchen.html:343
+#: livingroom/templates/livingroom/living.html:169
+msgid "Столы"
+msgstr "Tisch"
+
+#: kitchen/templates/kitchen/kitchen.html:346
+#: livingroom/templates/livingroom/living.html:172
+msgid ""
+"Надежность, прочность, долговечность - то чем должен хвастаться любой стол, "
+"и наши столы не исключение!"
+msgstr ""
+"Zuverlässigkeit, Festigkeit, Haltbarkeit - was jeder Tisch bieten sollte, "
+"und unsere Tische sind keine Ausnahme!"
+
+#: kitchen/templates/kitchen/kitchen.html:357
+msgid "Барные стойки"
+msgstr "Bartheken"
+
+#: kitchen/templates/kitchen/kitchen.html:360
+msgid ""
+"Красивые, лаконичные и функциональные барные стойки с обширным спектром "
+"декоративных решений!"
+msgstr ""
+"Schöne, lakonische und funktionale Bartheken mit einer großen Auswahl an "
+"dekorativen Lösungen!"
+
+#: kitchen/templates/kitchen/kitchen.html:370
+msgid "Стулья"
+msgstr "Stühle"
+
+#: kitchen/templates/kitchen/kitchen.html:373
+msgid ""
+"Надежность и удобство! Всё для того чтобы радовать вас когда вы завтракаете, "
+"обедаете, ужинаете!"
+msgstr ""
+"Zuverlässigkeit und Komfort! Alles, was Ihnen beim Frühstück, Mittag- und "
+"Abendessen gefällt!"
+
+#: livingroom/templates/livingroom/living.html:14
+msgid "Гостиная из массива дерева на заказ"
+msgstr "Wohnzimmer aus Massivholz auf Bestellung"
+
+#: livingroom/templates/livingroom/living.html:17
+msgid "Столы, тумбы, настенные полки из массива дерева ручной/машинной работы."
+msgstr ""
+"Tische, Schränke, Wandregale aus Massivholz, hand- / maschinengefertigt."
+
+#: livingroom/templates/livingroom/living.html:44
+#, fuzzy
+#| msgid ""
+#| "\n"
+#| "Наша компания предлагает услуги по изготовлению мебели из массива дерева "
+#| "для вашей гостинной. Воплощаем ваши мечты в реальность по индивидуальным "
+#| "размерам."
+msgid ""
+"Наша компания предлагает услуги по изготовлению мебели из массива дерева для "
+"вашей гостинной. Воплощаем ваши мечты в реальность по индивидуальным "
+"размерам."
+msgstr ""
+"\n"
+"Unsere Firma bietet Dienstleistungen für die Herstellung von "
+"Massivholzmöbeln für Ihr Wohnzimmer. Wir lassen Ihre Träume in individuellen "
+"Größen wahr werden."
+
+#: livingroom/templates/livingroom/living.html:140
+msgid ""
+"Не можете определиться со стилем своей гостинной? Наши специалисты помогут "
+"вам подобрать правильную цветовую гамму, и оформить всё в правильных тонах."
+msgstr ""
+"Sie können sich nicht für den Stil Ihres Wohnzimmers entscheiden? Unsere "
+"Experten helfen Ihnen bei der Auswahl des richtigen Farbschemas und ordnen "
+"alles in den richtigen Farben an."
+
+#: livingroom/templates/livingroom/living.html:157
+msgid "Идеально подойдут для вашей спальни"
+msgstr "Perfekt für Ihr Schlafzimmer"
+
+#: livingroom/templates/livingroom/living.html:181
+msgid "Настенные полки"
+msgstr "Wandregale"
+
+#: livingroom/templates/livingroom/living.html:184
+msgid "Симметрия, асимметрия, дизайнерские трюки. Спектр идей неограничен!"
+msgstr "Symmetrie, Asymmetrie, Designtricks. Die Ideenvielfalt ist unbegrenzt!"
+
+#: livingroom/templates/livingroom/living.html:198
+msgid ""
+"Самые разные виды шкафов под любые цели и задачи. С возможностью выбора "
+"планировки внутреннего пространства."
+msgstr ""
+"Eine Vielzahl von Schranktypen für jeden Zweck und jede Aufgabe. Mit der "
+"Möglichkeit, das Layout des Innenraums zu wählen."
+
+#: livingroom/templates/livingroom/living.html:208
+msgid "Тумбы и комоды"
+msgstr "Sideboards und Kommoden"
+
+#: livingroom/templates/livingroom/living.html:211
+msgid ""
+"Красивые, лаконичные и функциональные комоды/тумбы с обширным спектром "
+"декоративных решений!"
+msgstr ""
+"Schöne, lakonische und funktionelle Kommoden / Schränke mit einer großen "
+"Auswahl an dekorativen Lösungen!"
+
+#: main/apps.py:8 main/templates/include/nav.html:11
+msgid "Главная"
+msgstr "Haupt"
+
+#: main/models.py:6
+msgid "Фото сотрудника"
+msgstr "Mitarbeiterfoto"
+
+#: main/models.py:7
+msgid "Должность"
+msgstr "Position"
+
+#: main/models.py:8 main/templates/main/form.html:8
+msgid "Имя"
+msgstr "Name"
+
+#: main/models.py:9
+msgid "Фамилия"
+msgstr "Nachname"
+
+#: main/models.py:10
+msgid "Цитата"
+msgstr "Zitat"
+
+#: main/models.py:22
+msgid "сотрудника"
+msgstr "Mitarbeiter"
+
+#: main/models.py:23
+msgid "сотрудники"
+msgstr "Mitarbeiter"
+
+#: main/models.py:38
+msgid "заявку"
+msgstr "Anfrage"
+
+#: main/models.py:39
+msgid "заявки"
+msgstr "Anfrage"
+
+#: main/templates/include/nav.html:14
+msgid "Спальня"
+msgstr "Schlafzimmer"
+
+#: main/templates/include/nav.html:17
+msgid "Гостиная"
+msgstr "Wohnzimmer"
+
+#: main/templates/include/nav.html:20
+msgid "Кухня"
+msgstr "Küche"
+
+#: main/templates/main/base.html:44
+msgid "О компании"
+msgstr ""
+
+#: main/templates/main/base.html:45
+msgid "Способы оплаты"
+msgstr ""
+
+#: main/templates/main/base.html:46
+msgid "Доставка"
+msgstr ""
+
+#: main/templates/main/base.html:47
+msgid "Контакты"
+msgstr ""
+
+#: main/templates/main/base.html:54
+msgid "Спальня из массива дерева на заказ"
+msgstr "Schlafzimmer aus Massivholz auf Bestellung"
+
+msgid "Мебель из массива дерева на заказ"
+msgstr "Schlafzimmer aus Massivholz auf Bestellung"
+
+#: main/templates/main/base.html:62
+msgid ""
+"Фотографии представленные на сайте не являются показателем финальной работы, "
+"все изделия отличаются друг от друга в той или иной степени. Мы не "
+"гарантируем сходства с исходной продукцией."
+msgstr ""
+
+#: main/templates/main/form.html:5
+msgid ""
+"Поля отмеченные <span class=\"red_dot\">( )</span> обязательны к заполнению."
+msgstr ""
+"Mit <span class=\"red_dot\">( )</span> gekennzeichnete Felder müssen "
+"ausgefüllt werden."
+
+#: main/templates/main/form.html:9
+msgid "Иван"
+msgstr "Ben"
+
+#: main/templates/main/form.html:11 main/templates/main/form.html:19
+#: main/templates/main/form.html:27
+msgid "Это поле обязательно для заполнения"
+msgstr "Dieses Feld wird benötigt"
+
+#: main/templates/main/form.html:16
+msgid "Номер телефона"
+msgstr "Telefonnummer"
+
+#: main/templates/main/form.html:17
+msgid "Любой формат"
+msgstr "Beliebiges Format"
+
+#: main/templates/main/form.html:24
+msgid "Email адрес"
+msgstr "E-Mail-Addresse"
+
+#: main/templates/main/form.html:32
+msgid "Ваши предложения"
+msgstr "Ihre Vorschläge"
+
+#: main/templates/main/form.html:33
+msgid "Необязательно"
+msgstr "Nicht unbedingt"
+
+#: main/templates/main/form.html:39
+msgid "Согласен на обработку персональных данных"
+msgstr "Ich bin mit der Verarbeitung personenbezogener Daten einverstanden"
+
+#: main/templates/main/main.html:14
+msgid "Производитель мебели из массива на заказ"
+msgstr "Hersteller von Massivholzmöbeln nach Maß"
+
+#: main/templates/main/main.html:17
+msgid ""
+"Собственное производство мебели из массива дерева ручной/машинной работы."
+msgstr ""
+"Eigene Produktion von handgefertigten / maschinell gefertigten "
+"Massivholzmöbeln."
+
+#: main/templates/main/main.html:44
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tНаша компания предлагает услуги по изготовлению мебели из "
+"массива дерева для вашей спальни. Воплощаем ваши мечты в реальность по "
+"индивидуальным размерам. <br> <br>\n"
+"\n"
+"\t\t\t\t\t\t\tСоздадим мебель на заказ по вашим фотографиям или эскизам, "
+"сделаем копию иностранной мебели. \n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"Unsere Firma bietet Dienstleistungen für die Herstellung von "
+"Massivholzmöbeln für Ihr Schlafzimmer. Wir lassen Ihre Träume in "
+"individuellen Größen wahr werden. <br> <br> Wir fertigen maßgeschneiderte "
+"Möbel nach Ihren Fotos oder Skizzen, wir machen eine Kopie von ausländischen "
+"Möbeln."
+
+#: main/templates/main/main.html:67
+msgid "Спальни из массива дерева"
+msgstr "Massivholz Schlafzimmer"
+
+#: main/templates/main/main.html:70
+msgid ""
+"Мебель для спальни с индивидуальным подходом. Поможем подобрать форму, "
+"материалы и конструкцию."
+msgstr ""
+"Schlafzimmermöbel mit persönlicher Note. Wir helfen Ihnen bei der Auswahl "
+"von Form, Material und Design."
+
+#: main/templates/main/main.html:87
+msgid "Гостиная из массива дерева"
+msgstr "Wohnzimmer aus Massivholz"
+
+#: main/templates/main/main.html:90
+msgid ""
+"Общайтесь совершенно по-новому. Мебель которая отражает вашу "
+"индивидуальность."
+msgstr ""
+"Kommunizieren Sie auf völlig neue Weise. Möbel, die Ihre Persönlichkeit "
+"widerspiegeln."
+
+#: main/templates/main/main.html:115
+msgid "Кухни из массива дерева"
+msgstr "Massivholzküchen"
+
+#: main/templates/main/main.html:118
+msgid ""
+"Мебель для кухонь с индивидуальным подходом. Поможем подобрать форму, "
+"материалы и конструкцию. <br>Многообразие кухонной утвари!"
+msgstr ""
+"Küchenmöbel mit individuellem Ansatz. Wir helfen Ihnen bei der Auswahl von "
+"Form, Material und Design. <br> Vielzahl von Küchenutensilien!"
+
+#: main/templates/main/main.html:136
+msgid "Двери из массива дерева"
+msgstr "Massivholztüren"
+
+#: main/templates/main/main.html:139
+msgid ""
+"Встречайте друзей с шиком, оставляйте неприятелей наслаждаться обратной "
+"стороной двери!"
+msgstr ""
+"Treffen Sie Ihre Freunde mit Stil, lassen Sie die Feinde die Rückseite der "
+"Tür genießen!"
+
+#: main/templates/main/main.html:159
+msgid "Окна из массива дерева"
+msgstr "Massivholzfenster"
+
+#: main/templates/main/main.html:162
+msgid ""
+"Не позвольте коварному холоду проникнуть в ваше жилище! <br>Окно из массива "
+"дерева позволит вам выделить ваш вкус и подчеркнуть креативность."
+msgstr ""
+"Lassen Sie nicht zu, dass die heimtückische Kälte in Ihr Zuhause eindringt! "
+"<br> Mit einem Massivholzfenster können Sie Ihren Geschmack und Ihre "
+"Kreativität hervorheben."
+
+#: main/templates/main/main.html:164
+msgid "Узнать подробнее"
+msgstr "Mehr erfahren"
+
+#: main/templates/main/main.html:181
+msgid "Мы открыты для экспериментов."
+msgstr "Wir sind bereit zu experimentieren."
+
+#: main/templates/main/main.html:184
+msgid "Предлагайте все ваши самые смелые идеи."
+msgstr "Bieten Sie all Ihre wildesten Ideen an."
+
+#: main/templates/main/main.html:201
+msgid "Немного о людях, благодаря которым мы существуем"
+msgstr "Ein wenig über die Menschen, dank denen wir existieren."
+
+#: main/templates/main/main.html:311
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tНа нашем сайте мы собрали примеры множества примеров мебели от "
+"известных дизайнеров, для того чтобы вы могли вдохновляться новыми идеями "
+"для своей гостинной, кухни, ванной комнаты. Сообщите нам если хотите "
+"воссоздать понравившийся вам пример.\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+" Auf unserer Website haben wir Beispiele vieler Möbelbeispiele berühmter "
+"Designer zusammengestellt, damit Sie sich von neuen Ideen für Ihr "
+"Wohnzimmer, Ihre Küche und Ihr Bad inspirieren lassen können. Lassen Sie uns "
+"wissen, ob Sie das gewünschte Beispiel neu erstellen möchten."
+
+#: main/views.py:68
+msgid "Заявка уcпешно отправлена!"
+msgstr "Die Bewerbung wurde erfolgreich gesendet!"
+
+#: main/views.py:70
+msgid "Произошла ошибка!"
+msgstr "Ein Fehler ist aufgetreten!"
+
+#: mysite/settings.py:141
+msgid "Russian"
+msgstr ""
+
+#: mysite/settings.py:142
+msgid "German"
+msgstr ""

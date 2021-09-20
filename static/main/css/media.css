@@ -1,0 +1,283 @@
+
+@media (max-width: 575.98px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 35px;
+	}
+
+	.about-title {
+		font-size: 26px;
+	}
+
+	.windows-image {
+		height: 200px;
+	}
+
+	.inspiration_container {
+		top: 23%;
+	}
+
+	.description {
+		font-size: 18px;
+	}
+
+	.item-holder > * {
+		padding: 20px 0px;
+		text-align: center;
+	}
+
+	.offer-page__title {
+		font-size: 30px;
+	}
+
+	.offer-page__text {
+		font-size: 16px;
+	}
+
+	.offer-page__buttons > * {
+		display: block;
+	}
+
+	.more-for-bedroom__title {
+		font-size: 50px;
+	}
+
+	.ideas__title {
+		font-size: 36px;
+	}
+
+	.beds__title {
+		font-size: 62px;
+	}
+
+	.contact-form__title {
+		font-size: 48px;
+	}
+
+	.kitchen-types__about__title {
+		font-size: 23px;
+	}
+
+
+	.kitchen-title-more-fz-fix {
+	font-size: 30px;
+	}
+
+	.h-300 {
+		height: 300px;
+	}
+
+	.info__title {
+		font-size: 60px;
+	}
+
+	/*.ideas {
+		padding: 0;
+	}*/
+
+	.carousel-image {
+		height: 50vh;
+	}
+
+	.ideal-fits {
+		padding: 20px 0;
+	}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+	h1 {
+		font-size: 46px;
+	}
+
+	h2 {
+		font-size: 34px;
+	}
+
+	.about-wood__title {
+		font-size: 46px;
+	}
+
+	.beds__title {
+		font-size: 72px;
+	}
+
+	.ideas__title {
+		font-size: 55px;
+	}
+
+	.contact-form__title {
+		font-size: 48px;
+	}
+
+	.kitchen-types__title {
+		font-size: 60px;
+	}
+
+	.kitchen-title-more-fz-fix {
+		font-size: 70px;
+	}
+
+	.kitchen-types__about__title {
+		font-size: 23px;
+	}
+
+	.h-300 {
+		height: 300px;
+	}
+
+	.carousel-image {
+		height: 68vh;
+	}
+
+	
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1 {
+		font-size: 56px;
+	}
+
+	.about-wood__title {
+		font-size: 32px;
+	}
+
+	.ideal-fits__title {
+		font-size: 36px;
+	}
+
+	.inspiration__title {
+		color: #212121;
+	}
+
+	.inspiration__text {
+		color: #212121;
+	}
+
+	.btn-text-light {
+		color: #212121;
+	}
+
+	.ideas__title {
+		font-size: 72px;
+	}
+
+	.contact-form__title {
+		font-size: 48px;
+	}
+
+	.kitchen-types__title {
+		font-size: 60px;
+	}
+
+	.kitchen-title-more-fz-fix {
+		font-size: 70px;
+	}
+
+	.info__title {
+		font-size: 64px;
+	}
+
+	.info__tel {
+		font-size: 24px;
+	}
+
+	.kitchen-types__about__title {
+		font-size: 28px;
+	}
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1 {
+		font-size: 65px;
+	}
+
+	h2 {
+		font-size: 52px;
+	}
+
+	.inspiration__title {
+		font-size: 90px;
+	}
+
+	.ideas__title {
+		font-size: 90px;
+	}
+
+	.about-wood__title {
+		font-size: 42px;
+	}
+
+	.ideal-fits__title {
+		font-size: 36px;
+	}
+
+	.contact-form__title {
+		font-size: 48px;
+	}
+
+	.about-services__title {
+		font-size: 39px;
+	}
+	.kitchen-types__title {
+		font-size: 60px;
+	}
+
+	.kitchen-title-more-fz-fix {
+		font-size: 70px;
+	}
+
+	.info__title {
+		font-size: 84px;
+	}
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+	h2 {
+		font-size: 52px;
+	}
+
+	.inspiration__title {
+		font-size: 90px;
+	}
+
+	.ideas__title {
+		font-size: 90px;
+	}
+
+	.ideal-fits__title {
+		font-size: 44px;
+	}
+
+	.contact-form__title {
+		font-size: 48px;
+	}
+
+	.about-services__title {
+		font-size: 46px;
+	}
+
+	.kitchen-types__title {
+		font-size: 70px;
+	}
+
+	.kitchen-title-more-fz-fix {
+		font-size: 70px;
+	}
+}

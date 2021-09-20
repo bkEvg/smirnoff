@@ -1,0 +1,42 @@
+{% load static i18n %}
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark nav-transparent">
+  <div class="container">
+    {% get_current_language as LANGUAGE_CODE %}
+    <a class="navbar-brand" href="{% url 'main' %}"><img src="{% if LANGUAGE_CODE == 'de' %}{% static 'main/img/Logo_hor_de.svg' %}{% else %}{% static 'main/img/Logo_hor_ru.svg' %}{% endif %}" alt="Smirnoff logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+		  <a class="nav-link {% if request.path == main_url %}active{% endif %}" aria-current="page" href="{% url 'main' %}">{% trans 'Главная' %}</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link {% if request.path == bedroom_url %}active{% endif %}" href="{% url 'bedroom' %}">{% trans 'Спальня' %}</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link {% if request.path == living_url %}active{% endif %}" href="{% url 'livingroom' %}">{% trans 'Гостиная' %}</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link {% if request.path == kitchen_url %}active{% endif %}" href="{% url 'kitchen' %}">{% trans 'Кухня' %}</a>
+		</li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <!-- {% get_current_language as LANGUAGE_CODE %} -->
+            <i class="bi bi-globe globe-size" style="font-size: 0.9em;"></i> {{ LANGUAGE_CODE }}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            {% get_available_languages as LANGUAGES %}
+    		{% get_language_info_list for LANGUAGES as languages %}
+    		{% for language in languages %}
+            	<li><a class="dropdown-item {% if language.code == LANGUAGE_CODE %}bg-grey{% endif %}" href="{% url 'activate_language' language.code %}">{{ language.name_local }}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">8 (900) 150-50-45</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

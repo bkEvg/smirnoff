@@ -1,0 +1,314 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+
+{% block extrahead %}
+<meta name="description" content="{% trans 'Купить мебель для кухни, гостинной, спальни из массива дерева на заказ. Производитель мебели из массива дерева в СНГ.' %}">
+<meta name="keywords" content="мебель из массива дерева, мебель из дерева, натуральная мебель">
+{% endblock %}
+
+{% block content %}
+	<header class="header">
+		{% include 'include/nav.html' %}
+		<div class="offer" style="background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({% static 'main/img/1/bg-image-crop.jpeg' %}?height=1000);">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="offer-page pt-5">
+							
+							{% block alerts %}{{ block.super }}{% endblock %}
+							<h1 class="offer-page__title text-break">
+								{% trans 'Производитель мебели из массива на заказ' %}
+							</h1>
+							<p class="col-md-9 col-lg-6 offer-page__text">
+								{% trans 'Собственное производство мебели из массива дерева ручной/машинной работы.' %}
+							</p>
+							<div class="offer-page__buttons">
+								<a href="#about" class="btn btn-light me-4 mb-3">{% trans 'Подробнее' %}</a>
+								<a href="#form" class="btn btn-light btn-custom-outline">{% trans 'Связаться' %}</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div id="about" class="about-cover h-300" style="background-image: url({% static 'main/img/1/2.jpg' %});">
+					</div>
+				</div>
+			</div>
+			<div class="row about">
+				<div class="col-lg-6">
+					<h2 class="about-title" >{% trans 'Наша задача делать свое дело качественно, а ваша наслаждаться!' %}</h2>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="about-block">
+						<p class="about-block__text">
+							{% blocktranslate %}
+							Наша компания предлагает услуги по изготовлению мебели из массива дерева для вашей спальни. Воплощаем ваши мечты в реальность по индивидуальным размерам. <br> <br>
+
+							Создадим мебель на заказ по вашим фотографиям или эскизам, сделаем копию иностранной мебели. 
+							{% endblocktranslate %}
+						</p>
+						<a href="#form" class="btn btn-dark">{% trans 'Заказать консультацию' %}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="bedroom">
+		<div class="container-fluid">
+			<div class="row d-flex align-items-center">
+
+				<div class="col-12 col-md-6">
+					<div style="background-image: url({% static 'main/img/1/3.jpeg' %});" class="background-image"></div>
+				</div>
+
+				<div class="col-12 offset-md-1 col-md-5">
+					<div class="bedroom-description py-40">
+						<h2 class="bedroom-description__title">
+							{% trans 'Спальни из массива дерева' %}
+						</h2>
+						<p class="col-9 description_text">
+							{% trans 'Мебель для спальни с индивидуальным подходом. Поможем подобрать форму, материалы и конструкцию.' %}
+						</p>
+						<a class="btn btn-dark" href="{% url 'bedroom' %}">{% trans 'Подробнее' %}</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="living-room">
+		<div class="container-fluid">
+			<div class="row d-flex align-items-center">
+
+				<div class="col-12 offset-md-1 col-md-5 order-2 order-md-1">
+					<div class="living-room__description py-40">
+						<h2 class="bedroom-description__title">
+							{% trans 'Гостиная из массива дерева' %}
+						</h2>
+						<p class="col-9 description_text">
+							{% trans 'Общайтесь совершенно по-новому. Мебель которая отражает вашу индивидуальность.' %}
+						</p>
+						<a class="btn btn-dark" href="{% url 'livingroom' %}">{% trans 'Подробнее' %}</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 order-1 order-md-2 ">
+					<div style="background-image: url({% static 'main/img/1/4.jpeg' %});" class="background-image"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="kitchen">
+		<div class="container-fluid">
+			<div class="row d-flex align-items-center">
+
+				<div class="col-12 col-md-6">
+					<div style="background-image: url({% static 'main/img/3/kitchen-1.jpg' %});" class="background-image"></div>
+				</div>
+
+				<div class="col-12 offset-md-1 col-md-5">
+					<div class="kitchen-description py-40">
+						<h2 class="kitchen-description__title">
+							{% trans 'Кухни из массива дерева' %}
+						</h2>
+						<p class="col-9 description_text">
+							{% trans 'Мебель для кухонь с индивидуальным подходом. Поможем подобрать форму, материалы и конструкцию. <br>Многообразие кухонной утвари!' %}
+						</p>
+						<a class="btn btn-dark" href="{% url 'kitchen' %}">{% trans 'Подробнее' %}</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+
+	<section class="doors">
+		<div class="container-fluid">
+			<div class="row d-flex align-items-center">
+
+				<div class="col-12 offset-md-1 col-md-5 order-2 order-md-1">
+					<div class="doors__description py-40">
+						<h2 class="doors-description__title">
+							{% trans 'Двери из массива дерева' %}
+						</h2>
+						<p class="col-9 description_text">
+							{% trans 'Встречайте друзей с шиком, оставляйте неприятелей наслаждаться обратной стороной двери!' %}
+						</p>
+						<a class="btn btn-dark" href="#form">{% trans 'Связаться' %}</a>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6 order-1 order-md-2">
+					<div style="background-image: url({% static 'main/img/1/6.jpeg' %});" class="background-image"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="windows">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					
+					<div class="windows-description d-flex flex-column align-items-center">
+						<h2 class="windows-description__title text-center">
+							{% trans 'Окна из массива дерева' %}
+						</h2>
+						<p class="windows-description__text text-center">
+							{% trans 'Не позвольте коварному холоду проникнуть в ваше жилище! <br>Окно из массива дерева позволит вам выделить ваш вкус и подчеркнуть креативность.' %}
+						</p>
+						<a class="btn btn-dark w-auto mb-5" href="#form">{% trans 'Узнать подробнее' %}</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<div style="background-image: url({% static 'main/img/1/7.jpeg' %});" class="windows-image background-image"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="discovery background-image d-flex align-items-center" style="background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({% static 'main/img/1/8.jpeg' %});">
+		<div class="container">
+			<div class="row">
+				<div class="col col-md-6">
+					<div class="discovery-offer">
+						<h2 class="discovery-offer__title">
+							{% trans 'Мы открыты для экспериментов.' %}
+						</h2>
+						<p class="discovery-offer__text">
+							{% trans 'Предлагайте все ваши самые смелые идеи.' %}
+						</p>			
+						<a href="#form" class="btn btn-light discovery-offer__btn">
+							{% trans 'Подробнее' %}
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-us">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12 col-md-8">
+					<h2 class="about-us__title">
+						{% trans 'Немного о людях, благодаря которым мы существуем' %}
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+
+				{% for object in staff %}
+				<div class="col-12 col-md-4">
+					<div class="about-us__container">
+
+						<div class="about-us__container__image" style="background-image: url({{ object.image.url }});"></div>
+
+						<div class="about-us__container__position">
+							{{ object.position }}
+						</div>
+
+						<div class="about-us__container__description">
+							{{ object.notation }}
+						</div>
+
+						<div class="about-us__container__name">
+							{{ object.get_full_name }}
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+
+
+			</div>
+
+		</div>
+	</section>
+
+	<section class="inspiration position-relative">
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-12 offset-md-1 col-md-4 d-flex">
+					<div class="inspiration_container position-absolute mx-4 mx-md-0">
+						<h2 class="inspiration__title">
+							Pinterest
+						</h2>
+						<p class="inspiration__text">
+							{% trans 'Наша компания может создать репликацию на основе фотографий которые вы нашли на Pinterest.' %}
+						</p>
+						<a class="btn-custom-underline" href="https://www.pinterest.ru/search/pins/?q=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B8%D0%B7%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0&rs=typed&term_meta[]=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%7Ctyped&term_meta[]=%D0%B8%D0%B7%7Ctyped&term_meta[]=%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%7Ctyped" target="_blank">{% trans 'Вдохновиться' %} →</a>
+					</div>
+				</div>
+				<div class="col-12 offset-md-1 col-md-6">
+					<img class="inspiration-image img-fluid" src="{% static 'main/img/1/chair.jpg' %}"></img>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="ideas">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12">
+					<h2 class="ideas__title">
+						{% trans 'Вдохновляйтесь свежими идеями' %}
+					</h2>
+				</div>
+			</div>
+
+			<div class="row d-flex align-items-center">
+				<div class="col-12 col-md-7">
+					<div class="background-image h-300" style="background-image: url({% static 'main/img/1/9.jpeg' %});"></div>
+				</div>
+				<div class="col-12 col-md-5">
+					<div class="ideas__container px-md-5">
+						<p class="ideas__text">
+							{% blocktranslate %}
+							На нашем сайте мы собрали примеры множества примеров мебели от известных дизайнеров, для того чтобы вы могли вдохновляться новыми идеями для своей гостинной, кухни, ванной комнаты. Сообщите нам если хотите воссоздать понравившийся вам пример.
+							{% endblocktranslate %}
+						</p>
+						<a href="{% url 'ideas_list' %}" class="btn btn-dark">{% trans 'Посмотреть' %}</a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="form" class="contact-form">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-6">
+					<h2 class="contact-form__title">
+						{% trans 'Оставьте заявку' %}
+					</h2>
+					<p class="description">
+						{% trans 'Закажите мебель и многое другое из массива дерева, пообщайтесь со специалистами, получите бесплатную консультацию!' %}
+					</p>
+				</div>
+
+				<div class="col-12 col-md-6">
+					{% include 'main/form.html' %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+{% endblock content %}

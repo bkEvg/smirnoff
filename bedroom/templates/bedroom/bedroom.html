@@ -1,0 +1,371 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+{% block content %}
+	<header class="header">
+		{% include 'include/nav.html' %}
+		<div class="offer" style="background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({% static 'main/img/2/1-bg__crop.jpeg' %});">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="offer-page text-center pt-5">
+							{% block alerts %}{{ block.super }}{% endblock %}
+							<h1 class="offer-page__title text-break">
+								{% trans 'Спальня из массива дерева на заказ' %}
+							</h1>
+							<p class="col-md-9 col-lg-6 offer-page__text_">
+								{% trans 'Производство кроватей, тумб, шкафов из массива дерева ручной/машинной работы.' %}
+							</p>
+							<div class="offer-page__buttons">
+								<a href="#about" class="btn btn-light me-4 mb-3">{% trans 'Подробнее' %}</a>
+								<a href="#form" class="btn btn-light btn-custom-outline">{% trans 'Связаться' %}</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div id="about" class="about-cover h-300" style="background-image: url({% static 'main/img/2/2-crop.jpeg' %});">
+					</div>
+				</div>
+			</div>
+			<div class="row about">
+				<div class="col-lg-6">
+					<h2 class="about-title" >{% trans 'Наша задача делать свое дело качественно, а ваша наслаждаться!' %}</h2>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="about-block">
+						<p class="about-block__text">
+							{% trans 'Наша компания предлагает услуги по изготовлению мебели из массива дерева для вашей спальни. Воплощаем ваши мечты в реальность по индивидуальным размерам.' %} <br> <br>
+							{% trans 'Создадим мебель на заказ по вашим фотографиям или эскизам, сделаем копию иностранной мебели.' %}
+						</p>
+						<a href="#form" class="btn btn-dark">{% trans 'Заказать консультацию' %}</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="beds">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="beds__title">
+						{% trans 'Кровати для спальни' %}
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="beds__type">
+						<h3 class="beds__type__title">
+							{% trans 'Двуспальные кровати' %}
+						</h3>
+						<p class="beds__type__text">
+							{% trans 'Закажите удобную и стильную кровать для спальни из массива дерева. Сделаем репликацию кровати по вашим фотографиям.' %}
+						</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<div class="beds__type">
+						<h3 class="beds__type__title">
+							{% trans 'Односпальные кровати' %}
+						</h3>
+						<p class="beds__type__text">
+							{% trans 'Экологически чистый и очень крепкий материал, позволит вам в полной мере насладиться крепким сном!' %}
+						</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<div class="beds__type">
+						<h3 class="beds__type__title">
+							{% trans 'Детские кровати' %}
+						</h3>
+						<p class="beds__type__text">
+							{% trans 'Изготавливаем детскую мебель для ваших детей с индивидуальным подходом. Ваш ребенок будет в восторге от кровати!' %}
+						</p>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+	<section class="slides">
+		<div id="carouselID1" class="carousel carousel-dark slide" data-bs-ride="carousel" data-bs-touch="true">
+		  <div class="carousel-indicators">
+		    <button type="button" data-bs-target="#carouselID1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+		    <button type="button" data-bs-target="#carouselID1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+		    <button type="button" data-bs-target="#carouselID1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+		  </div>
+		  <div class="carousel-inner">
+
+		    <div class="carousel-item active" data-bs-interval="5000">
+		      <div class="carousel-image" style="background-image: url({% static 'main/img/2/3-crop.jpeg' %});"></div>
+		    </div>
+
+		    <div class="carousel-item">
+		      <div class="carousel-image" style="background-image: url({% static 'main/img/2/4-crop.jpeg' %});"></div>
+		    </div>
+
+		    <div class="carousel-item">
+		      <div class="carousel-image" style="background-image: url({% static 'main/img/2/5-crop.jpeg' %});"></div>
+		    </div>
+
+		  </div>
+		  <button class="carousel-control-prev" type="button" data-bs-target="#carouselID1" data-bs-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Previous</span>
+		  </button>
+		  <button class="carousel-control-next" type="button" data-bs-target="#carouselID1" data-bs-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="visually-hidden">Next</span>
+		  </button>
+		</div>
+	</section>
+
+	
+
+
+	<section class="inspiration position-relative">
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-12 offset-md-1 col-md-4 d-flex">
+					<div class="inspiration_container position-absolute mx-4 mx-md-0 z-1 top-25">
+						<h2 class="inspiration__title">
+							Pinterest
+						</h2>
+						<p class="inspiration__text">
+							{% trans 'Наша компания может создать репликацию на основе фотографий которые вы нашли на Pinterest.' %}
+						</p>
+						<a class="btn-custom-underline" href="https://www.pinterest.ru/search/pins/?q=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%20%D0%B8%D0%B7%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0&rs=typed&term_meta[]=%D0%BC%D0%B5%D0%B1%D0%B5%D0%BB%D1%8C%7Ctyped&term_meta[]=%D0%B8%D0%B7%7Ctyped&term_meta[]=%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D0%B0%7Ctyped" target="_blank">{% trans 'Вдохновиться' %} →</a>
+					</div>
+				</div>
+
+				<div class="col-12 offset-md-1 col-md-6">
+					<div class="inspiration__image" style="background-image: url({% static 'main/img/2/1-.jpeg' %});"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section class="ideal-fits">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<h2 class="ideal-fits__title">
+						{% trans 'Никаких проблем с подбором мебели дополняющей друг друга!' %}
+					</h2>
+				</div>
+				<div class="col-12 col-md-6">
+					<p class="ideal_fits__text">
+						{% trans 'Часто возникает проблема: кровать куплена, а дополнительная мебель не подходит по стилю, и что же делать? Можно обратиться к интернету и погрязнуть в разнообразии всего подряд, а можно обратиться к нам, и наши специалисты подберут мебель, которая идеально подходит к вашей кровати!' %}
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<img src="{% static 'main/img/2/6-crop.jpeg' %}" alt="" class="ideal-fits__image img-fluid">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="more-for-bedroom">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="more-for-bedroom__title">
+						{% trans 'Идеально подойдет к вашей спальне' %}
+					</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6">
+
+					<div class="more-for-bedroom__item">
+						<h3 class="more-for-bedroom__item__title">
+							{% trans 'Тумбы' %}
+						</h3>
+						<p class="more-for-bedroom__item__text">
+							{% trans 'Куда положить телефон с будильником, чтобы его услышать и не проспать важную встречу, конечно же на тумбу! Отличное место для хранения мелочей.' %}
+						</p>
+						<img src="{% static 'main/img/2/7-crop.jpeg' %}" alt="" class="more-for-bedroom__item__image img-fluid">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<div class="more-for-bedroom__item">
+						<h3 class="more-for-bedroom__item__title">
+							{% trans 'Шкафы' %}
+						</h3>
+						<p class="more-for-bedroom__item__text">
+							{% trans 'Плательные шкафы, шкафы купе из массива дерева по индивидуальным чертежам, с возможностью выбора планировки внутреннего пространства.' %}
+						</p>
+						<img src="{% static 'main/img/2/8-crop.jpeg' %}" alt="" class="more-for-bedroom__item__image img-fluid">
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-12 col-md-6">
+
+					<div class="more-for-bedroom__item">
+						<h3 class="more-for-bedroom__item__title">
+							{% trans 'Комоды' %}
+						</h3>
+						<p class="more-for-bedroom__item__text">
+							{% trans 'Красивые, лаконичные и функциональные комоды с обширным спектром декоративных решений!' %}
+						</p>
+						<img src="{% static 'main/img/2/9-crop.jpeg' %}" alt="" class="more-for-bedroom__item__image img-fluid">
+					</div>
+				</div>
+
+				<div class="col-12 col-md-6">
+					<div class="more-for-bedroom__item">
+						<h3 class="more-for-bedroom__item__title">
+							{% trans 'Туалетные столики' %}
+						</h3>
+						<p class="more-for-bedroom__item__text">
+							{% trans 'Является неотъемлемой частью спальни. Может быть как просто украшением так и функциональной мебелью!' %}
+						</p>
+						<img src="{% static 'main/img/2/10-crop.jpeg' %}" alt="" class="more-for-bedroom__item__image img-fluid">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about-wood">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<h2 class="about-wood__title">
+						{% trans 'Великолепие натурального дерева' %}
+					</h2>
+					<p class="about-wood__text">
+						{% trans 'Помимо красоты, у дерева немало практических преимуществ. Это экологичность, гипоаллергенность, устойчивость к нагрузкам.' %}
+					</p>
+				</div>
+				<div class="col-12 col-md-8">
+					<div class="row d-flex">
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив дуба' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Классика на века. Кровать из массива дуба — вещь, способная без проблем прослужить не один десяток лет. Неоспоримое достоинство материала — устойчивость к гниению.' %}
+						</p>
+					</div>
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив ясеня' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Практичный и выразительный. По своей прочности, долговечности кровать из ясеня может сравниться с мебелью из дуба, при этом ясень существенно дешевле.' %}
+						</p>
+					</div>
+				</div>
+
+				<div class="row d-flex">
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив бука' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Долговечный и прочный. Твердый и устойчивый к механическим повреждениям, этот материал служит десятилетия. Он отлично подходит для изготовления кроватей.' %}
+						</p>
+					</div>
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив сосны' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Дешевый и полезный. Важный плюс материала — податливость в обработке, поэтому сосну используют и для производства мебели, которая затем лакируется, и для изготовления каркаса с последующим покрытием шпоном.' %}
+						</p>
+					</div>
+				</div>
+
+				<div class="row d-flex">
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив ореха' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Впечатляющее разнообразие тонов. Из-за большого содержание дубильных веществ он очень просто окрашивается в любые тона, от самых светлых до насыщенных темных.' %}
+						</p>
+					</div>
+					<div class="col-12 col-md-6 about-wood__item">
+						<h5 class="about-wood__item__title">
+							{% trans 'Массив лиственницы' %}
+						</h5>
+						<p class="about-wood__item__text mb-5">
+							{% trans 'Капризная красота.Очень приятный красновато-бурый оттенок древесины лиственницы делает ее желанной гостьей на мебельных фабриках. Однако материал капризен: из-за большого количества смол в стволе.' %}
+						</p>
+					</div>
+				</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ideas">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-12">
+					<h2 class="ideas__title">
+						{% trans 'Вдохновляйтесь свежими идеями' %} 
+					</h2>
+				</div>
+			</div>
+
+			<div class="row d-flex align-items-center">
+				<div class="col-12 col-md-7">
+					<div class="background-image h-300" style="background-image: url({% static 'main/img/2/11-crop.jpg' %});"></div>
+				</div>
+				<div class="col-12 col-md-5">
+					<div class="ideas__container px-md-5">
+						<p class="ideas__text">
+							{% trans 'На нашем сайте мы собрали примеры множества примеров мебели от известных дизайнеров, для того чтобы вы могли вдохновляться новыми идеями для своей гостинной, кухни, ванной комнаты. Сообщите нам если хотите воссоздать понравившийся вам пример.' %} 
+						</p>
+						<a href="{% url 'ideas_list' %}" class="btn btn-dark">{% trans 'Посмотреть' %} </a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="form" class="contact-form">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-6">
+					<h2 class="contact-form__title">
+						{% trans 'Оставьте заявку' %} 
+					</h2>
+					<p class="description">
+						{% trans 'Закажите мебель и многое другое из массива дерева, пообщайтесь со специалистами, получите бесплатную консультацию!' %} 
+					</p>
+				</div>
+
+				<div class="col-12 col-md-6">
+					{% include 'main/form.html' %}
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+{% endblock content %}

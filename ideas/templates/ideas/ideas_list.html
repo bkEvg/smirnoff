@@ -1,0 +1,126 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+{% block content %}
+	<header class="header">
+		{% include 'include/nav.html' %}
+		<div class="offer" style="background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({% static 'main/img/5/bg-image.jpeg' %});">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="offer-page">
+							{% block alerts %}{{ block.super }}{% endblock %}
+							<h1 class="col-md-8 offer-page__title text-break">
+								{% trans 'Вдохновение на каждый день' %}
+							</h1>
+							<p class="col-md-9 col-lg-6 offer-page__text">
+								{% trans 'Мы совместно с дизайнерами подобрали мебель которая идеально сочетается, и ее возможно воссоздать нашими специалистами!' %}
+							</p>
+							<div class="offer-page__buttons">
+								<a href="#examples" class="btn btn-light me-4 mb-3">{% trans 'Подробнее' %}</a>
+								<a href="#form" class="btn btn-light btn-custom-outline">{% trans 'Связаться' %}</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="inspiration position-relative">
+		<div class="container-fluid">
+
+			<div class="row">
+				<div class="col-12 offset-md-1 col-md-4 d-flex">
+					<div class="inspiration_container position-absolute mx-4 mx-md-0 z-1 top-25">
+						<h2 class="inspiration__title">
+							Pinterest
+						</h2>
+						<p class="inspiration__text">
+							{% trans 'Наша компания может создать репликацию на основе фотографий которые вы нашли на Pinterest.' %}
+						</p>
+						<a class="btn-custom-underline">{% trans 'Вдохновиться' %} →</a>
+					</div>
+				</div>
+
+				<div class="col-12 offset-md-1 col-md-6">
+					<div class="inspiration__image" style="background-image: url({% static 'main/img/3/7-crop.jpeg' %});"></div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+
+	<section id="examples" class="examples">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="examples__title">
+						{% trans 'Мебель подобранная дизайнерами' %}
+					</h2>
+				</div>
+			</div>
+			<div class="row">
+				{% for galery in galeries %}
+				<div class="col-12 {% cycle 'col-lg-4' 'col-lg-8' %} mb-gutter">
+					<a href="{{ galery.get_absolute_url }}" class="examples__image__container-link">
+						<div class="examples__image" style="background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ), url({{ galery.photos.last.image.url }});">
+							<h4 class="examples__text" >
+								{{ galery.title }}
+							</h4>
+						</div>
+					</a>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+	</section>
+
+	<section class="info bg-grey">
+		<div class="container">
+			<div class="row justify-content-around">
+				<div class="col-12 col-md-4">
+					<div class="info__from-to text-center">
+						<h2 class="info__title">
+							{% trans 'от А—Я' %}
+						</h2>
+						<p class="info__text">
+							{% trans 'Ваш проект будет вести один человек от начала и до конца!' %}
+						</p>
+					</div>
+				</div>
+
+				<div class="col-12 col-md-4">
+					<div class="info__variations text-center">
+						<h2 class="info__title">
+							300+
+						</h2>
+						<p class="info__text">
+							{% trans 'Возможных цветовых решений для вашей мебели.' %}
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section id="form" class="contact-form">
+		<div class="container">
+			<div class="row">
+
+				<div class="col-12 col-md-6">
+					<h2 class="contact-form__title">
+						{% trans 'Оставьте заявку' %}
+					</h2>
+					<p class="description">
+						{% trans 'Закажите мебель и многое другое из массива дерева, пообщайтесь со специалистами, получите бесплатную консультацию!' %}
+					</p>
+				</div>
+
+				<div class="col-12 col-md-6">
+					{% include 'main/form.html' %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+{% block head %}
+	<title>{{ page.title }}</title>
+	<meta name="description" content="{{ page.description }}">
+{% endblock %}
+{% block content %}
+	<header class="header">
+		{% include 'include/nav.html' %}
+	</header>
+	<section class="text">
+		<div class="container">
+			<div class="row">
+				{% autoescape off %}
+					{{ page.text.html }}
+				{% endautoescape %}
+			</div>
+		</div>
+	</section>
+{% endblock %}
